@@ -1,0 +1,16 @@
+*{
+   margin: 0;
+   padding: 0;
+   
+}
+.codeground-container{
+   width: 96%;
+   display: block;
+   margin: auto;
+}
+.ace_editor, .ace_editor *{
+   font-family: "Monaco", "Menlo", "Ubuntu Mono", "Droid Sans Mono", "Consolas", monospace !important;
+   font-size: 18px !important;
+   font-weight: 400 !important;
+   letter-spacing: 0 !important;
+   }

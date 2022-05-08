@@ -1,0 +1,80 @@
+.table-container{
+   overflow: auto;
+   white-space: nowrap;
+   width: 96%;
+   display: block;
+   margin: auto;
+   font-size: 14px;
+   margin-top: 15px;
+   border-radius: 10px;
+}
+tr:first-child{
+   font-weight: 600;
+   height: 60px;
+   text-transform: uppercase;
+}
+.table-rows{
+   padding: 10px;
+}
+tr:not(:first-child){
+   background-color: white !important;
+   color: rgb(40, 40, 40) !important;
+}
+tr:nth-child(even){
+   background-color: rgb(229, 229, 229) !important;
+   color:rgb(40, 40, 40) !important ;
+}
+
+.download-csv{
+   display: flex;
+   justify-content: right;
+   position:relative;
+   right: 2%;
+}
+.csv-download-btn{
+   font-size: 15px;
+   padding: 5px 15px;
+   border-radius: 10px;
+   border: none;
+   width: 80px;
+   cursor: pointer;
+   display: flex;
+}
+.query-runtime{
+   font-size: small;
+   text-align: right;
+   position: relative;
+   right: 2%;
+   font-weight: 600;
+}
+.center{
+   text-align: center;
+}
+.fonund-record{
+   position: absolute;
+   left: 2%;
+   font-size: small;
+   font-weight: 600;
+}
+.h6,.h6-small{
+   font-weight: 600;
+   margin-bottom: 5px;
+   margin-top: 5px;
+}
+.query-error{
+   font-size: small;
+   background-color: rgb(240, 240, 240);
+   border-radius: 10px;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   width: 96%;
+   display: block;
+   margin: auto;
+   margin-top: 10px;
+   text-align: center;
+}
+.query-error li,a{
+   text-decoration: none;
+   list-style: none;
+}

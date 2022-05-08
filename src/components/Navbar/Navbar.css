@@ -1,0 +1,110 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: poppins,sans-serif !important;
+}
+
+.navbar-container{
+   /* background-color: #0d7e65;
+   color:white; */
+   font-family: poppins,sans-serif;
+   font-size: large;
+   display: flex;
+   justify-content: space-between;
+   padding: 15px 10%;
+   letter-spacing: 0.5px;
+} 
+#atlan-logo-text{
+   letter-spacing: 1.7px;
+   cursor: pointer;
+}
+.lower-nav{
+   background-color: rgb(211, 211, 211);
+   display: flex;
+   justify-content: space-between;
+   padding: 5px 10%;
+}
+#run{
+   background-color: rgb(0, 153, 0);
+   color: white;
+   display: flex;
+   padding: 2px 10px;
+   border: none;
+   font-size: small;
+   border-radius: 2px;
+   cursor: pointer;
+}
+#run:hover{
+   background-color: rgb(18, 200, 30);
+}
+.font-medium{
+   font-size: 10px;
+   margin-top: 4px;
+   margin-right: 3px;
+}
+.changeTheme{
+   font-size: small;
+   cursor: pointer;
+   display: flex;
+   z-index: 9999;
+   text-align: center;
+}
+.font-large{
+   font-size: 20px;
+   margin-left: 2px;
+}
+.choose-theme{
+   width: 200px;
+   border: 1px solid rgb(174, 174, 174);
+   border-radius: 15px;
+   border: none;
+   position: absolute;
+   right: 5%;
+   display: none;
+}
+.theme-color{
+   padding: 5px;
+}
+#bg-green{
+   background-color: rgb(3, 160, 92);
+   color: white;
+   border-radius: 12px;
+    margin: 5px;
+}
+#bg-orange{
+   background-color: rgb(219, 92, 37);
+   color: white;
+   border-radius: 12px;
+    margin: 5px;
+}
+#bg-dark{
+   background-color: rgb(0, 0, 0);
+   color: white;
+   border-radius: 12px;
+    margin: 5px;
+}
+#bg-blue{
+   background-color: rgb(7, 112, 182);
+   color: white;
+   border-radius: 12px;
+    margin: 5px;
+}
+#bg-yellow{
+   background-color: rgb(237, 186, 0);
+   color: black;
+   border-radius: 12px;
+    margin: 5px;
+}
+#bg-light{
+   border: 1px solid rgb(75, 75, 75);
+   background-color: white;
+   border-radius: 12px;
+    margin: 5px;
+}
+#bg-green:hover,#bg-light:hover, #bg-yellow:hover,#bg-dark:hover,#bg-blue:hover,#bg-orange:hover{
+   position: relative;
+   right: 20px;
+}
+.lower-nav{
+   margin-bottom: 10px;
+}
