@@ -6,6 +6,7 @@ SQL compiler by Yuvraj Jwala
 #### https://gtmetrix.com/reports/sql-compiler-atlan.netlify.app/5CanTWd1/
 ##### ✔ Performance -100% 
 ##### ✔ Structure - 100%
+![image](https://user-images.githubusercontent.com/74554809/167290743-6aa75a67-93f2-4ddb-9924-e84279a6019d.png)
 
 ## Table Information
 Sample CSV data provided
