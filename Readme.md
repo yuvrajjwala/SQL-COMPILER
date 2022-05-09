@@ -13,6 +13,7 @@ https://sql-compiler-atlan.netlify.app/
 ![image](https://user-images.githubusercontent.com/74554809/167290918-b4d9b6e0-c289-4e24-818a-89b3d59ee38d.png)
 #### 3 More themes available 
 
+##### Development is still in progress (Pagination, Lazy loading, etc)
 
 
 ## Page Speed Report (GT Metrix)
