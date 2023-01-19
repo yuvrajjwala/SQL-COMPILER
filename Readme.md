@@ -1,4 +1,4 @@
-# SQL COMPILER | ATLAN
+# SQL COMPILER 
 
 SQL compiler by Yuvraj Jwala
 #### Web App Link
